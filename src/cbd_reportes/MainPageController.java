@@ -5243,7 +5243,7 @@ public class MainPageController implements Initializable {
                             alert.setContentText(String.format("Está seguro que desea liquidar el usuario %s?", cliente.getFullName()));
                             Optional<ButtonType> result = alert.showAndWait();
                             if (result.get() == ButtonType.OK) {
-                                // getLiquidacion(cliente, clientesList);
+                                getLiquidacion(cliente, clientesList);
                             } else {
                                 alert.close();
                             }
