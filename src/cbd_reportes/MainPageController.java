@@ -2113,12 +2113,12 @@ public class MainPageController implements Initializable {
         try {
             Font smallfont = new Font(Font.FontFamily.COURIER, 9, Font.NORMAL);
             Font font = new Font(Font.FontFamily.COURIER, 10, Font.NORMAL);
-            Font boldFont = new Font(Font.FontFamily.COURIER, 10, Font.BOLD);
+            Font mediumBoldFont = new Font(Font.FontFamily.COURIER, 12, Font.BOLD, BaseColor.RED);
 
             Phrase _p1_ = new Phrase();
             Paragraph p1 = new Paragraph();
 
-            _p1_.setFont(boldFont);
+            _p1_.setFont(mediumBoldFont);
             _p1_.add(Chunk.TABBING);
             _p1_.add(Chunk.TABBING);
             _p1_.add(Chunk.TABBING);
@@ -2276,7 +2276,7 @@ public class MainPageController implements Initializable {
         try {
             Font smallfont = new Font(Font.FontFamily.COURIER, 9, Font.NORMAL);
             Font font = new Font(Font.FontFamily.COURIER, 10, Font.NORMAL);
-            Font boldFont = new Font(Font.FontFamily.COURIER, 10, Font.BOLD);
+            Font mediumBoldFont = new Font(Font.FontFamily.COURIER, 12, Font.BOLD, BaseColor.RED);
 
             Phrase _p1_ = new Phrase();
             Paragraph p1 = new Paragraph();
@@ -2292,7 +2292,7 @@ public class MainPageController implements Initializable {
             document.add(Chunk.NEWLINE);
             document.add(Chunk.NEWLINE);
 
-            _p1_.setFont(boldFont);
+            _p1_.setFont(mediumBoldFont);
             _p1_.add(Chunk.TABBING);
             _p1_.add(Chunk.TABBING);
             _p1_.add(Chunk.TABBING);
